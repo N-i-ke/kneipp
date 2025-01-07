@@ -1,18 +1,22 @@
 import React from 'react';
+import logo from '../assets/logo.png';
+import mainTitle from '../assets/main_title.png';
+import mainTitleSp from '../assets/main_title_sp.png';
+import productTitle from '../assets/main_pdtitle.png';
 
 const Main: React.FC = () => {
   return (
     <section className="main">
       <div className="main__inner">
         <div className="logo">
-          <img src="img/logo.png" alt="Logo" />
+          <img src={logo} alt="Logo" />
         </div>
         <div className="title">
-          <img src="img/main_title.png" alt="Main Title" />
-          <img className="none" src="img/main_title_sp.png" alt="Main Title SP" />
+          <img src={mainTitle} alt="Main Title" />
+          <img className="none" src={mainTitleSp} alt="Main Title SP" />
         </div>
         <div className="sub__title">
-          <img src="img/main_pdtitle.png" alt="Product Title" />
+          <img src={productTitle} alt="Product Title" />
         </div>
       </div>
     </section>

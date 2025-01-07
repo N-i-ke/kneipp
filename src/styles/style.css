@@ -13,7 +13,7 @@ body {
 .main {
   position: relative;
   margin: 0 auto;
-  background: url(../img/main_bg.jpg) center top no-repeat;
+  background: url(../assets/main_bg.jpg) center top no-repeat;
   min-height: 763px;
   background-repeat: no-repeat;
 }
@@ -56,7 +56,7 @@ body {
 
 .main::after {
   content: "";
-  background: url(../img/punc1.png) center bottom repeat-x;
+  background: url(../assets/punc1.png) center bottom repeat-x;
   height: 132px;
   width: 100%;
   position: absolute;
@@ -128,10 +128,10 @@ body {
   content: "";
   width: 860px;
   height: 38px;
-  background: url(../img/c02_bg3.png) center bottom no-repeat;
+  background: url(../assets/c02_bg3.png) center bottom no-repeat;
 }
 .salt .salt__inner .box {
-  background: url(../img/c02_bg1.png) center top no-repeat;
+  background: url(../assets/c02_bg1.png) center top no-repeat;
   padding-top: 40px;
   width: 860px;
   position: relative;
@@ -139,7 +139,7 @@ body {
   text-align: center;
 }
 .salt .salt__inner .box .box__inner {
-  background: url(../img/c02_bg2.png) center top repeat-y;
+  background: url(../assets/c02_bg2.png) center top repeat-y;
   padding: 20px 0;
 }
 .salt .salt__inner .box .box__inner .title {
@@ -192,7 +192,7 @@ body {
 .salt .salt__inner .box .box__inner .bottom__box .yuzu ul li {
   margin: 10px 0;
   text-align: left;
-  background: url(../img/c02_check.png) left center no-repeat;
+  background: url(../assets/c02_check.png) left center no-repeat;
   background-size: 17px;
   color: #4ba200;
   font-weight: bold;
@@ -217,7 +217,7 @@ body {
 .salt .salt__inner .box .box__inner .bottom__box .ginger ul li {
   margin: 10px 0;
   text-align: left;
-  background: url(../img/c02_check.png) left center no-repeat;
+  background: url(../assets/c02_check.png) left center no-repeat;
   background-size: 17px;
   color: #4ba200;
   font-weight: bold;
@@ -233,7 +233,7 @@ body {
 
 .bath {
   position: relative;
-  background-image: url(../img/c03_bg.png);
+  background-image: url(../assets/c03_bg.png);
   background-color: #ffd800;
   background-position: center;
   background-repeat: no-repeat;
@@ -304,7 +304,7 @@ body {
 
 .bath:before {
   content: "";
-  background: url(../img/punc2.png) center bottom repeat-x;
+  background: url(../assets/punc2.png) center bottom repeat-x;
   height: 132px;
   width: 100%;
   position: absolute;
@@ -324,7 +324,7 @@ body {
   z-index: 10;
 }
 .shop .shop__inner .box {
-  background: url(../img/shop_bg2.png) left bottom no-repeat;
+  background: url(../assets/shop_bg2.png) left bottom no-repeat;
   color: #333;
   width: 930px;
   position: relative;
@@ -367,12 +367,12 @@ body {
   content: "";
   width: 930px;
   height: 10px;
-  background: url(../img/shop_bg1.png) left top no-repeat;
+  background: url(../assets/shop_bg1.png) left top no-repeat;
 }
 
 .shop:before {
   content: "";
-  background: url(../img/punc3.png) center bottom repeat-x;
+  background: url(../assets/punc3.png) center bottom repeat-x;
   height: 87px;
   width: 100%;
   position: absolute;
@@ -382,7 +382,7 @@ body {
 
 .shop:after {
   content: "";
-  background: url(../img/punc2.png) center bottom repeat-x;
+  background: url(../assets/punc2.png) center bottom repeat-x;
   background-size: 180%;
   height: 10vw;
   width: 100%;
@@ -587,7 +587,7 @@ footer .footer__inner .bottom .bottom__inner .bottom {
   .salt .salt__inner .box .box__inner .bottom__box .yuzu ul li {
     margin: 10px 0;
     text-align: left;
-    background: url(../img/c02_check.png) left center no-repeat;
+    background: url(../assets/c02_check.png) left center no-repeat;
     background-size: 15px;
     color: #4ba200;
     font-weight: bold;
@@ -630,7 +630,7 @@ footer .footer__inner .bottom .bottom__inner .bottom {
   .salt .salt__inner .box .box__inner .bottom__box .ginger ul li {
     margin: 10px 0;
     text-align: left;
-    background: url(../img/c02_check.png) left center no-repeat;
+    background: url(../assets/c02_check.png) left center no-repeat;
     background-size: 15px;
     color: #4ba200;
     font-size: 14px;
@@ -647,7 +647,7 @@ footer .footer__inner .bottom .bottom__inner .bottom {
 
   .bath {
     position: relative;
-    background-image: url(../img/c03_bg.png);
+    background-image: url(../assets/c03_bg.png);
     background-color: #ffd800;
     background-position: center;
     background-repeat: no-repeat;
@@ -728,7 +728,7 @@ footer .footer__inner .bottom .bottom__inner .bottom {
 
   .bath:before {
     content: "";
-    background: url(../img/punc2.png) center bottom repeat-x;
+    background: url(../assets/punc2.png) center bottom repeat-x;
     height: 132px;
     width: 100%;
     position: absolute;
@@ -793,12 +793,12 @@ footer .footer__inner .bottom .bottom__inner .bottom {
     content: "";
     width: 95%;
     height: 10px;
-    background: url(../img/shop_bg1.png) left top no-repeat;
+    background: url(../assets/shop_bg1.png) left top no-repeat;
   }
 
   .shop:before {
     content: "";
-    background: url(../img/punc3.png) center bottom repeat-x;
+    background: url(../assets/punc3.png) center bottom repeat-x;
     height: 87px;
     width: 100%;
     position: absolute;
@@ -808,7 +808,7 @@ footer .footer__inner .bottom .bottom__inner .bottom {
 
   .shop:after {
     content: "";
-    background: url(../img/punc2.png) center bottom repeat-x;
+    background: url(../assets/punc2.png) center bottom repeat-x;
     background-size: 180%;
     height: 10vw;
     width: 100%;
