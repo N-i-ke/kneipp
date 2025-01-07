@@ -1,11 +1,12 @@
 import React from 'react';
+import c01title from '../assets/c01_title.png';
 
 const MainBottom: React.FC = () => {
   return (
     <section className="main__bottom">
       <div className="main__bottom__inner">
         <div className="title">
-          <img src="img/c01_title.png" alt="C01 Title" />
+          <img src={c01title} alt="C01 Title" />
         </div>
         <div className="title__text">
           <p className="text">
